@@ -2,7 +2,7 @@ const checkButton = document.getElementById("check-btn");
 const clearButton = document.getElementById("clear-btn");
 const result = document.getElementById("results-div");
 const phoneNumber = document.getElementById("user-input");
-const regex = /^(1\s?)(\(\d{3}\)|\d{3})([\s-]?)(\d{3})([\s-]?)(\d{4})$/
+const regex = /^(1\s?)?(\(\d{3}\)|\d{3})([\s-]?)(\d{3})([\s-]?)(\d{4})$/
 
 
 const checkNumber = (number)=>{
